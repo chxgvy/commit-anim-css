@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+#menu {
+    text-align: center;
+
+    width: 100px;
+    height: 30px;
+    padding-top: 5px;
+    border-radius: 20px;
+
+    color: palevioletred;
+    background-color: pink;
+
+}
+
+#menu:hover {
+    height: 200px;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;    
+    animation-name: defilement;
+}

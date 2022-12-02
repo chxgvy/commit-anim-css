@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+#loader{
+  align-items: center;
+  width: 250px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  left: 550px;
+}
+
+.rond{
+  width: 70px;
+  height: 70px;
+  border-radius: 70px;
+  border: 1px solid black;
+
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+#rond-1{
+  background-color: white;
+  animation-name: loader;
+}
+
+#rond-2{
+  background-color: black;
+  animation-name: loader;
+  animation-delay: 1s;
+}
+
+#rond-3{
+  background-color: white;
+  animation-name: loader;
+  animation-delay: 2s;
+}
+
+@keyframes loader{
+  from{
+      background-color: white;
+  }
+  to{
+      background-color: black;
+  }
+}
